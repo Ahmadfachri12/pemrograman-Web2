@@ -19,6 +19,7 @@ $pasiens = $dbh->query($query);
 </head>
 <body>
     <h1>List Data Pasien</h1>
+    <a href="#" class="btn btn-primary">Tambah</a>
     <table class="table">
         <tr>
             <th>No</th>

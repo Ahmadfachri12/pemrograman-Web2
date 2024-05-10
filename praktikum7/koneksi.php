@@ -1,9 +1,9 @@
 <?php
-$host ='localhost';
-$database ='db_puskesmas';
-$user ='root';
-$pass ='';
-$charset ='utf8mb4';
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$database = 'db_puskesmas';
+$charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$database;charset=$charset";
 
