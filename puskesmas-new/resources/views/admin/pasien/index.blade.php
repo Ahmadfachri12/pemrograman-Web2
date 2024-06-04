@@ -36,7 +36,7 @@
                 <form class="forms-sample d-inline" action="{{ url('dashboard/pasien/destroy', $pasien->id) }}" method="post">
                  @csrf
                  @method('delete')
-                 <button type="submit" class="btn btn-danger" onclick="return confirm('Apakah yakin ingin menghapus data?')"><i class="far fa-trash-alt"></i>Hapus</button>
+                 <button type="submit" class="btn btn-danger" onclick="return confirm('Apakah anda yakin ingin menghapus data {{ $pasien->nama }}?')"><i class="far fa-trash-alt"></i>Hapus</button>
                 </td>
             </tr>
             @endforeach
